@@ -12,7 +12,16 @@ export: |
             "src/**.h"
         }
 
+        includedirs {
+            "3rdparty",
+            "3rdparty/nvtt",
+            "3rdparty/iqa/include"
+        }
+
         zpm.uses "Zefiros-Software/bx"
+
+        filter "system:linux"
+            pic "on"
 
         zpm.export(function()
 
