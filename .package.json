@@ -1,9 +1,0 @@
-{
-    "name": "Zefiros-Software/bimg",
-    "requires": [
-        {
-            "name": "Zefiros-Software/bx",
-            "version": "@head"
-        }
-    ]
-}
